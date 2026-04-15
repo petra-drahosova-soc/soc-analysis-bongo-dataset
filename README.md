@@ -1,4 +1,4 @@
-# soc-analysis-bongo-dataset
+# soc_report_bongo_petra_drahosova
 SOC analysis of suspicious HTTP activity (Bongo dataset)
 SOC Analysis – Bongo Dataset
 
