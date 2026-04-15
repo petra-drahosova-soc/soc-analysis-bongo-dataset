@@ -3,6 +3,7 @@ SOC analysis of suspicious HTTP activity (Bongo dataset)
 SOC Analysis – Bongo Dataset
 
 This project analyzes suspicious HTTP activity from the Bongo dataset.
+This project was created as part of my cybersecurity training, focused on SOC analysis.
 
 ## Key Findings
 - Multiple automated scans (phpMyAdmin, WordPress, config files)
