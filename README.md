@@ -1,22 +1,23 @@
-# soc_report_bongo_petra_drahosova
-SOC analysis of suspicious HTTP activity (Bongo dataset)
-SOC Analysis – Bongo Dataset
+# soc Analysis Projects
+This repository contains multiple cybersecurity analysis projects created during my training.
+1. SOC Analysis – Bongo Dataset
 
-This project analyzes suspicious HTTP activity from the Bongo dataset.
-This project was created as part of my cybersecurity training, focused on SOC analysis.
+Analysis of suspicious HTTP activity.
 
-## Key Findings
-- Multiple automated scans (phpMyAdmin, WordPress, config files)
-- One command injection attempt (unsuccessful)
-- No confirmed compromise
+Key Findings
+Automated scans (phpMyAdmin, WordPress, config files)
+One unsuccessful command injection attempt
+No confirmed compromise
+Severity
 
-## Overall Severity
 Low
 
-## Focus
-- Distinguishing between background noise and real threats  
-- Identifying automated vs manual activity  
-- Analyzing attack patterns across multiple IPs  
+2. Splunk Log Analysis (Firewall, VPN, IDS)
 
-## Full Report
-See SOC_Report_Bongo_Petra.pdf
+Analysis of network logs to identify suspicious activity and correlate events.
+
+Key Findings
+External IPs performed port scanning and gained VPN access
+Internal reconnaissance and lateral movement detected
+C2 beaconing from internal host (10.0.0.60)
+Suspicious activity on service account (svc_backup)
