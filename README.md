@@ -1,4 +1,4 @@
-# soc Analysis Projects
+# SOC Analysis Projects
 This repository contains multiple cybersecurity analysis projects created during my training.
 1. SOC Analysis – Bongo Dataset
 
